@@ -1,3 +1,3 @@
 markdown: redcarpet
-baseurl:/integerinnovation
-exclude:['README.md']
+baseurl: /integerinnovation
+exclude: ['README.md']
