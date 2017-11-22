@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: trainings
 ---
 
-<h1>Training</h1>
+<h1>Details about Branding</h1>
 <ul>
-  {% for news in site.posts %}
+  {% for news in site.categories.oldernews %}
   <li>
-    <a href="">{{news.title}}</a>
+    <a href="{{site.url}}{{news.url}}">{{news.title}}</a>
     <p>{{news.meta}}</p>
   </li>
   {% endfor %}
