@@ -3,19 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<title>IntegerInnovation</title>
+  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="training.html">training</a></li>
-      </ul>
-      </nav
-  </header>
+<body class="masthead" "image">
+<header>
+{% include nav.html navclass='nav-top' %}
+</header>
 
 {{content}}
 
 
+
+
 </body>
+<footer>
+  {% include nav.html navclass='nav-bottom' %}
+</footer>
+
+
+
 </html>
