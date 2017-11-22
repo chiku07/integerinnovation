@@ -1,0 +1,13 @@
+---
+layout: trainings
+---
+
+<h1>Details about Workshop</h1>
+<ul>
+  {% for news in site.categories.promotion %}
+  <li>
+    <a href="{{site.url}}{{news.url}}">{{news.title}}</a>
+    <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
