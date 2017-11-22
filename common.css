@@ -9,6 +9,17 @@ html{
   color: #fff;
 }
 
+.masthead{
+  padding: 2em;
+  background:url("../img/educacion2.jpg") no-repeat center center;
+  background-size: cover;
+}
+.image{
+  padding: 2em;
+  background:url("../img/Brown-Rustic-Website-Background-With-Border-2.jpg");
+  background-size: cover;
+}
+
 .nav{
   margin:0;
   padding:0;
