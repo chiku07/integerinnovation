@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% for planet in site.pages %}
+<h1>{{planet.title}}</h1>
+<img src="{{site.baseurl}}/img/{planet.image}" alt="photos of{{planet.title}}">
+<dl>
+  <dt>Start Date</dt><dd>{{planet.startdate}}</dd>
+  <dt>End Date</dt><dd>{{planet.enddate}}</dd>
+  <dt>Venue</dt><dd>{{planet.venue}}</dd>
+  <dt>Time</dt><dd>{{planet.time}}</dd>
+</dl>
+{% endfor %}
+{{content}}
